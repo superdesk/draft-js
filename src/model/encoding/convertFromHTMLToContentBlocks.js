@@ -562,9 +562,6 @@ class ContentBlocksBuilder {
     }
 
     if (this.wrapper !== 'pre') {
-      // Trim leading line feed, which is invisible in HTML
-      text = text.replace(REGEX_LEADING_LF, '');
-
       // Can't use empty string because MSWord
       text = text.replace(REGEX_LF, SPACE);
     }
