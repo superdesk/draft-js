@@ -1,5 +1,5 @@
 {
-  "name": "draft-js",
+  "name": "@sourcefabric/draft-js",
   "description": "A React framework for building text editors.",
   "version": "0.11.5",
   "keywords": [
@@ -121,5 +121,9 @@
       "<rootDir>/node_modules/react/",
       "<rootDir>/node_modules/react-dom/"
     ]
+  },
+  "volta": {
+    "node": "12.22.12",
+    "yarn": "1.22.22"
   }
 }
