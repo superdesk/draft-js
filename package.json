@@ -1,5 +1,8 @@
 {
   "name": "@sourcefabric/draft-js",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A React framework for building text editors.",
   "version": "0.11.5",
   "keywords": [
